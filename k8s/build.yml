@@ -168,6 +168,11 @@ metadata:
   name: api
   namespace: go-demo-3-build
 spec:
+#  type: NodePort
+#  NodePort: 30080
+#  type: LoadBalancer
+#  loadBalancerSourceRanges:
+#  - 0.0.0.0/0
   ports:
   - name: http
     port: 8080
